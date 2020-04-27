@@ -18,7 +18,7 @@ def get_type(input_file):
 			return False
 	except:
 		print("Last file is {}".format(input_file))
-		print("Is this what you where looking for?")
+		print("Is this what you where looking for?\ncat {}".format(input_file))
 		os.system("cat {}".format(input_file))
 		exit()
 
